@@ -1,0 +1,381 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.logo {
+  flex: 1;
+  font-weight: bold;
+}
+
+.banner {
+  flex: 3;
+  text-align: center;
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 0;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.ofertas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.oferta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.categoria {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: black;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.categoria:hover {
+  background-color: #ddd;
+}
+
+.icons a {
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.logo {
+  flex: 1;
+  height: 75px;
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+  text-indent: -9999px; 
+}
+.banner {
+  flex: 1;
+  height: auto;
+  background-image: url('banner.png');
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+#oferta1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/imagenes-ofrtas/laptop.png');
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#oferta2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/imagenes-ofrtas/cocina.png');
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#oferta3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/imagenes-ofrtas/cama2plaza.png');
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#oferta4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/imagenes-ofrtas/mesaluz.png');
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#oferta5 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/imagenes-ofrtas/canguro.png');
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#oferta6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('/imagenes-ofrtas/babucha.png');
+  background-size: cover;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+.caja-texto {
+  background-color: rgba(255,255,255,0.9);
+  padding: 10px 18px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-weight: bold;
+  text-align: center;
+}
+
+.caja-span {
+  background-color: rgba(255, 0, 0, 0.85);
+  padding: 10px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(255, 0, 0);
+  font-family: cursive;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+#categoria1 {
+ background-color:rgb(90, 90, 90);  
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+#categoria2 {
+ background-color:rgb(255, 0, 0);  
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+#categoria3 {
+ background-color:rgb(0, 0, 0);  
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+strong {
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.fotos-ropa {
+ display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+    text-align: center;
+
+}
+.fotos-hogar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.descripcion {
+  font-size: 17px;
+  color: #ff0000;
+  margin-top: 10px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.imagentienda {
+display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: #ff0000 1px 1px, #747474 0 0;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+label {
+  font-weight: bold;
+  color: #ff0000;
+  margin-right: 10px;
+  text-align: left; 
+  text-shadow: #000000 1px 1px, #ffffff 0 0;
+  
+}
+.form-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.estilo-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 500px;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  padding: 24px 28px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.estilo-formulario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.estilo-formulario label {
+  min-width: 80px;
+  color: #ff0000;
+  font-weight: bold;
+  text-align: right;
+}
+
+.estilo-formulario input,
+.estilo-formulario textarea {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.estilo-formulario label{
+  align-items: flex-start;
+}
+
+.estilo-textarea label {
+  margin-top: 8px;
+}
+
+.estilo-formulario-textarea {
+  min-height: 60px;
+  max-height: 20%;
+  resize: horizontal;
+}
+
+.estilo-formulario-estilo-boton {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.estilo-formulario-boton button {
+  width: auto;
+  padding: 10px 28px;
+  border-radius: 20px;
+  background: #ff0000;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
